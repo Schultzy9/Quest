@@ -158,7 +158,7 @@ export const ChallengeData = [
     id: 1,
     quest: 'SEI-48 Quest',
     info: {
-      decisionText: "You have just quit your job and decided to pursue your dream of becomming a Software Engineer! You've enrolled into a course and ready to take on the challenge!",
+      decisionText: "You have just quit your job and decided to pursue your dream of becomming a Software Engineer! You've enrolled into a course and are ready to take on the challenge!",
       success: {
         path: '/challenge/2',
         reqSkill: 'coding',
@@ -203,7 +203,7 @@ export const ChallengeData = [
     id: 4,
     quest: 'SEI-48 Quest',
     info: {
-      decisionText: "SUCCESS! You begin the course and everything is going well so far. You're getting towards the end of the week and Joel tells you about the MTA homework. I mean it sounds complicated but I think if I can work on it without getting too distracted I should be able to get somewhere with it.",
+      decisionText: "SUCCESS! You begin the course and everything is going well so far. You're getting towards the end of the week and Joel tells you about the MTA homework. I mean it sounds complicated but I think if you can work on it without getting too distracted you should be able to get somewhere with it.",
       success: {
         path: '/challenge/5',
         reqSkill: 'procrastination',
