@@ -10,7 +10,7 @@ import Home from './pages/Home';
 import Choice from './components/Choice';
 import FinalChoice from './components/FinalChoice';
 import Challenge from './components/Challenge';
-import ProjectQuest from './pages/ProjectQuest';
+import ChallengeQuest from './pages/ChallengeQuest';
 import PuzzleQuest from './pages/PuzzleQuest';
 
 
@@ -20,7 +20,7 @@ const routes = (
       <Route exact path='/' component={Home} />
       <Route path='/choice/:id' component={Choice} />
       <Route path='/challenge/:id' component={Challenge} />
-      <Route path='/project' component={ProjectQuest} />
+      <Route exact path='/challenge' component={ChallengeQuest} />
       <Route path='/final/:id' component={FinalChoice} />
       <Route path='/puzzle' component={PuzzleQuest} />
     </Router>

@@ -156,14 +156,181 @@ export const ChallengeData = [
   {},
   {
     id: 1,
-    quest: 'Project Quest',
+    quest: 'SEI-48 Quest',
     info: {
-      decisionText: 'Challenge time! I hope you chose a high number for your programming skills. Good luck',
+      decisionText: "You have just quit your job and decided to pursue your dream of becomming a Software Engineer! You've enrolled into a course and ready to take on the challenge!",
       success: {
-        path: '/final/8'
+        path: '/challenge/2',
+        reqSkill: 'coding',
+        reqResult: 0
       },
       failure: {
-        path: '/final/9'
+        path: '/challenge/2',
+      }
+    }
+  },
+  {
+    id: 2,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "Alright, time to get through the pre course work. It's not too difficult, hopefully you have at least a few coding skills to get through it.",
+      success: {
+        path: '/challenge/4',
+        reqSkill: 'coding',
+        reqResult: 2
+      },
+      failure: {
+        path: '/challenge/3',
+      }
+    }
+  },
+  {
+    id: 3,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "FAILED! You couldn't get through the pre course work and as such they don't accept you into the course. You didn't actually want to learn anyway, you were much happier living in your parents basement and selling drugs.",
+      success: {
+        path: '/',
+        reqSkill: 'coding',
+        reqResult: 0
+      },
+      failure: {
+        path: '/',
+      }
+    }
+  },
+  {
+    id: 4,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "SUCCESS! You begin the course and everything is going well so far. You're getting towards the end of the week and Joel tells you about the MTA homework. I mean it sounds complicated but I think if I can work on it without getting too distracted I should be able to get somewhere with it.",
+      success: {
+        path: '/challenge/5',
+        reqSkill: 'procrastination',
+        reqResult: 8
+      },
+      failure: {
+        path: '/challenge/6',
+      }
+    }
+  },
+  {
+    id: 5,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "SUCCESS! You did it. I mean it doesn't really work that well and your code is proper garbage but at least it sort of works. You keep trucking along and now it's time for the first project. Goal is to make a Tic-Tac-Toe game. You'll need some coding skills to get this done.",
+      success: {
+        path: '/challenge/7',
+        reqSkill: 'coding',
+        reqResult: 4
+      },
+      failure: {
+        path: '/challenge/8',
+      }
+    }
+  },
+  {
+    id: 6,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "Oh oh, you got distracted too easily and didn't really get anywhere with it. That doesn't matter though because the benefits to your mental health by not trying to get MTA done far outweigh any skills gained by doing it. Time for the first project. Goal is to make a Tic-Tac-Toe game. You'll need some coding skills to get this done.",
+      success: {
+        path: '/challenge/7',
+        reqSkill: 'coding',
+        reqResult: 4
+      },
+      failure: {
+        path: '/challenge/8',
+      }
+    }
+  },
+  {
+    id: 7,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "SUCCESS! You worked really hard and made a working Tic-Tac-Toe game. Now it's time for a group project. You'll really need to focus to get some work done as a group. It looks easy enough, it's called Buring Airlines...",
+      success: {
+        path: '/challenge/9',
+        reqSkill: 'procrastination',
+        reqResult: 6
+      },
+      failure: {
+        path: '/challenge/10',
+      }
+    }
+  },
+  {
+    id: 8,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "You Tic-Tac-Can't do it so you decide to quit. You always thought it was called noughts and crosses anyways, which is clearly why you was unable to get anything done.",
+      success: {
+        path: '/',
+        reqSkill: 'coding',
+        reqResult: 0
+      },
+      failure: {
+        path: '/',
+      }
+    }
+  },
+  {
+    id: 9,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "SUCCESS, well I mean sort of. The project doesn't work even a little bit and you're now scared of air travel but you managed to tough it out and are ready for the final project. You can do this!",
+      success: {
+        path: '/challenge/11',
+        reqSkill: 'coding',
+        reqResult: 7
+      },
+      failure: {
+        path: '/challenge/12',
+      }
+    }
+  },
+  {
+    id: 10,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "Burning Airlines breaks you. Your dreams are haunted by dark visions of crashing plane gifs. You will never fully recover from this. You are a shell of your former self.",
+      success: {
+        path: '/',
+        reqSkill: 'coding',
+        reqResult: 0
+      },
+      failure: {
+        path: '/',
+      }
+    }
+  },
+  {
+    id: 11,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "SUCCESS, you completed the final project and finished the course. Well done for choosing high numbers in the coding skill and low numbers in procrastination on the first page.",
+      success: {
+        path: '/',
+        reqSkill: 'coding',
+        reqResult: 0
+      },
+      failure: {
+        path: '/',
+      }
+    }
+  },
+  {
+    id: 12,
+    quest: 'SEI-48 Quest',
+    info: {
+      decisionText: "FAILED! Why didn't you pick better numbers at the start of this quest. You literally get to choose - just give yourself better ratings.",
+      success: {
+        path: '/',
+        reqSkill: 'coding',
+        reqResult: 0
+      },
+      failure: {
+        path: '/',
       }
     }
   }

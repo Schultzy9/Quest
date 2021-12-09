@@ -31,6 +31,10 @@ const Home = () => {
                 <Button variant="contained">Project Quest</Button>
               </Link>
               <p></p>
+              <Link to={{pathname: '/challenge', state: name}}>
+                <Button variant="contained">Challenge Quest</Button>
+              </Link>
+              <p></p>
               <Link to={{pathname: '/puzzle', state: name}}>
                 <Button variant="contained">Puzzle Quest</Button>
               </Link>

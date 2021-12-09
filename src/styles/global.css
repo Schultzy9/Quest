@@ -1,22 +1,22 @@
 :root {
-  --primary-one: darkslategrey;
-  --primary-two: limegreen;
-  --background: firebrick;
+  --primary-one: whitesmoke;
+  --primary-two: firebrick;
+  --background: darkslategrey;
 }
 
 .content-wrapper {
   background-color: var(--background);
   min-height: calc(100vh - 48px);
-  color: white;
+  color: var(--primary-one);
   display: grid;
 }
 
 .top-bar {
-  background-color: var(--primary-one) !important;
+  background-color: var(--primary-two) !important;
 }
 
-p, h2, h6, input, a {
-  color: white !important;
+p, h2, h6, a, input {
+  color: var(--primary-one) !important;
 }
 
 a {

@@ -5,6 +5,9 @@ import { canSwap, shuffle, swap, isSolved } from "./Helpers"
 
 import { Button, Box } from '@material-ui/core';
 
+//Credit to Barely Coding with Daniel Bark
+//https://www.youtube.com/watch?v=_wdbhVvMOCs
+
 function Board(props) {
   const [tiles, setTiles] = useState([...Array(TILE_COUNT).keys()]);
   const [isStarted, setIsStarted] = useState(false);
@@ -58,10 +61,10 @@ function Board(props) {
         ))}
       </ul>
       <Box textAlign ='center'>
-        {hasWon && isStarted && <div>Puzzle solved 🧠 🎉</div>}
+        {hasWon && isStarted && <div>Great success!</div>}
         {!isStarted ?
-          (<Button className='button-board' onClick={() => handleStartClick()}>Start game</Button>) :
-          (<Button className='button-board' onClick={() => handleShuffleClick()}>Restart game</Button>)}
+          (<Button className='button-board' onClick={() => handleStartClick()}>Start Quest</Button>) :
+          (<Button className='button-board' onClick={() => handleShuffleClick()}>Restart Quest</Button>)}
         </Box>
     </>
   );

@@ -36,7 +36,7 @@ const Choice = (props) => {
             </Typography>
             <Box textAlign ='center'>
 
-            <img src={catPic}></img>
+            <img src={catPic} alt='cat'></img>
 
               <Typography variant="body1" align="center" color="textSecondary" paragraph>
                 {decisionText}
