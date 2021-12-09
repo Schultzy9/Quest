@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Quest/static/css/main.a853239a.chunk.css",
-    "main.js": "/Quest/static/js/main.4609c792.chunk.js",
-    "main.js.map": "/Quest/static/js/main.4609c792.chunk.js.map",
+    "main.js": "/Quest/static/js/main.df339777.chunk.js",
+    "main.js.map": "/Quest/static/js/main.df339777.chunk.js.map",
     "runtime-main.js": "/Quest/static/js/runtime-main.d315283b.js",
     "runtime-main.js.map": "/Quest/static/js/runtime-main.d315283b.js.map",
     "static/js/2.ff172c5f.chunk.js": "/Quest/static/js/2.ff172c5f.chunk.js",
@@ -10,12 +10,16 @@
     "index.html": "/Quest/index.html",
     "static/css/main.a853239a.chunk.css.map": "/Quest/static/css/main.a853239a.chunk.css.map",
     "static/js/2.ff172c5f.chunk.js.LICENSE.txt": "/Quest/static/js/2.ff172c5f.chunk.js.LICENSE.txt",
-    "static/media/cat3.b771d05b.gif": "/Quest/static/media/cat3.b771d05b.gif"
+    "static/media/cat1.91ebc977.gif": "/Quest/static/media/cat1.91ebc977.gif",
+    "static/media/cat2.b913cbbe.gif": "/Quest/static/media/cat2.b913cbbe.gif",
+    "static/media/cat3.b771d05b.gif": "/Quest/static/media/cat3.b771d05b.gif",
+    "static/media/cat4.90e50ef8.gif": "/Quest/static/media/cat4.90e50ef8.gif",
+    "static/media/cat5.c26eea85.gif": "/Quest/static/media/cat5.c26eea85.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.d315283b.js",
     "static/js/2.ff172c5f.chunk.js",
     "static/css/main.a853239a.chunk.css",
-    "static/js/main.4609c792.chunk.js"
+    "static/js/main.df339777.chunk.js"
   ]
 }
