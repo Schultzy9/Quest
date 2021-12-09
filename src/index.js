@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import { HashRouter as Router, Route} from 'react-router-dom';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import './styles/global.css';
+
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Choice from './components/Choice';
+import FinalChoice from './components/FinalChoice';
+import Challenge from './components/Challenge';
+import ProjectQuest from './pages/ProjectQuest';
+import PuzzleQuest from './pages/PuzzleQuest';
+
+
+const routes = (
+  <Layout>
+    <Router>
+      <Route exact path='/' component={Home} />
+      <Route path='/choice/:id' component={Choice} />
+      <Route path='/challenge/:id' component={Challenge} />
+      <Route path='/project' component={ProjectQuest} />
+      <Route path='/final/:id' component={FinalChoice} />
+      <Route path='/puzzle' component={PuzzleQuest} />
+    </Router>
+  </Layout>
+)
+
+ReactDOM.render(routes, document.getElementById('root'));
