@@ -39,7 +39,7 @@ const PuzzleQuest = () => {
             </Typography>
             <Board imgUrl={catImgUrl}/>
             <Typography variant="h6" align="center" color="textPrimary">
-              {catFact}
+              CAT FACTS: {catFact}
             </Typography>
           </Container>
         </div>
