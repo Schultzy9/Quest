@@ -11,7 +11,7 @@ const Layout = function ({children}) {
         <Toolbar>
           <DirectionsRun />
           <Typography variant='h6'>
-            <a href='/'>
+            <a href='https://schultzy9.github.io/Quest/#/'>
               Quest
             </a>
           </Typography>

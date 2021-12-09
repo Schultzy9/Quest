@@ -8,6 +8,10 @@ const Home = () => {
 
   const [name, setName] = useState('Adventurer');
 
+  if (name === 'Meow-Meow') {
+    alert("Safety warning for those suffering photosensitive epilepsy. Do not continue")
+  }
+
   return (
     <div className="App">
       <main>

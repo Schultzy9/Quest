@@ -188,7 +188,7 @@ export const ChallengeData = [
     id: 3,
     quest: 'SEI-48 Quest',
     info: {
-      decisionText: "FAILED! You couldn't get through the pre course work and as such they don't accept you into the course. You didn't actually want to learn anyway, you were much happier living in your parents basement and selling drugs.",
+      decisionText: "FAILED! You couldn't get through the pre course work and as such they don't accept you into the course. You didn't actually want to learn anyway, you were much happier living in your parents basement.",
       success: {
         path: '/',
         reqSkill: 'coding',
